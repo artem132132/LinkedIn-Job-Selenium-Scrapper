@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import random
 import time
-
+ 
 # Configure logging settings
 logging.basicConfig(filename="scraping.log", level=logging.INFO)
 
