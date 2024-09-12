@@ -11,7 +11,7 @@ import time
  
 # Configure logging settings
 logging.basicConfig(filename="scraping.log", level=logging.INFO)
-
+ 
 
 def scrape_linkedin_jobs(job_title: str, location: str, pages: int = None) -> list:
     """
